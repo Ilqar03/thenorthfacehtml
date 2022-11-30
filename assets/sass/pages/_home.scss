@@ -1,0 +1,53 @@
+main {
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .sale {
+            margin-bottom: 30px;
+
+            a {
+                img {
+                    width: 1745px;
+                    height: 343px;
+                }
+            }
+        }
+
+        .sale_cards {
+            width: 1440px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 50px;
+
+            a {
+                img {
+                    width: 340px;
+                    height: 242px;
+                }
+            }
+        }
+
+        .commet {
+            width: 1420px;
+            h4{
+                font-size: 24px;
+                margin-bottom: 24px;
+            }
+            p {
+                margin-bottom: 24px;
+                font-size: 16px;
+                a {
+                    color: black;
+                }
+
+                a:hover {
+                    color: gray;
+                }
+            }
+        }
+    }
+}
